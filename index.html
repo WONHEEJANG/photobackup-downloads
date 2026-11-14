@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="PhotoBackup 맥 수신기를 설치하고 iPhone의 사진과 영상을 외장 SSD에 백업하세요.">
+<title>PhotoBackup — Mac 수신기 다운로드</title>
+<style>
+:root{color-scheme:dark;--bg:#101316;--panel:#181d20;--text:#f3f6f3;--muted:#b2bdba;--accent:#bbf48b;--line:#353d3d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,sans-serif;line-height:1.65}
+main,header,footer{max-width:1000px;margin:auto;padding-inline:28px}header{padding-block:24px;border-bottom:1px solid var(--line);font-weight:750}
+.hero{padding-block:70px 54px;display:grid;gap:44px;grid-template-columns:1.2fr .8fr;align-items:center}
+h1{font-size:clamp(2.6rem,6vw,5rem);line-height:1.12;letter-spacing:-.06em;margin:0}h1 span{color:var(--accent)}p{color:var(--muted)}.path{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:30px;display:grid;gap:12px}.path div{border-bottom:1px solid var(--line);padding-bottom:12px}.path div:last-child{border:0;padding:0}.path strong{display:block}.path span{color:var(--muted);font-size:.9rem}
+section.install{border-top:1px solid var(--line);padding-block:30px 54px}ol{padding-left:1.5rem;color:var(--muted)}li{padding-block:6px}li strong{color:var(--text)}
+.download{border:1px solid var(--line);border-radius:24px;padding:clamp(22px,5vw,44px);background:var(--panel)}h2{letter-spacing:-.035em;margin:0 0 .55rem}a.button{display:inline-block;background:var(--accent);color:#172216;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:780}a.button:hover{background:#d1ffad}a:focus-visible{outline:3px solid white;outline-offset:4px}.note{font-size:.88rem;margin-bottom:0}footer{padding-block:28px;color:var(--muted);font-size:.85rem}@media(max-width:650px){.hero{grid-template-columns:1fr;padding-block:44px 32px;gap:24px}.path{padding:18px}}
+</style>
+</head>
+<body>
+<header>PhotoBackup</header>
+<main>
+<div class="hero">
+<div><h1>iPhone 사진을<br><span>내 외장 디스크에.</span></h1><p>집 Wi-Fi에서 사진과 영상을 Mac으로 보내고, iPhone의 PhotoBackup 갤러리에서 다시 열어보세요.</p></div>
+<div class="path" aria-label="백업 경로"><div><strong>iPhone</strong><span>사진과 영상 선택 및 백업</span></div><div><strong>Mac 수신기</strong><span>같은 Wi-Fi에서 파일 수신</span></div><div><strong>외장 디스크</strong><span>PhotoBackup 폴더에 원본 저장</span></div></div>
+</div>
+<section class="install" aria-labelledby="guide"><h2 id="guide">설치하고 연결하기</h2>
+<ol><li><strong>Mac 수신기 설치.</strong> 아래 DMG를 열고 PhotoBackup Mac을 응용 프로그램 폴더로 옮깁니다.</li>
+<li><strong>저장 디스크 연결.</strong> 메뉴 막대에서 외장 디스크를 선택한 뒤 수신을 시작하고 연결 토큰을 설정합니다.</li>
+<li><strong>iPhone 연결.</strong> 내부 테스터는 초대받은 TestFlight에서 PhotoBackup을 설치할 수 있습니다. 같은 Wi-Fi에서 ‘맥 찾기’를 누르고 같은 토큰을 입력합니다.</li></ol></section>
+<section class="download" aria-labelledby="download"><h2 id="download">Mac 수신기 다운로드</h2>
+<p>PhotoBackup Mac 베타 · Apple Silicon · macOS 27.2 이상 · Python 3 필요</p>
+<a class="button" href="https://github.com/WONHEEJANG/photobackup-downloads/releases/download/v0.1.0-beta/PhotoBackup-Mac.dmg">Mac용 DMG 다운로드 ↓</a>
+<p class="note">현재 베타는 Apple Developer ID 서명 및 공증 전 빌드입니다. macOS에서 실행을 차단할 수 있습니다. iPhone 앱은 TestFlight 내부 테스터 초대가 필요합니다.</p></section>
+</main>
+<footer>PhotoBackup</footer>
+</body>
+</html>
